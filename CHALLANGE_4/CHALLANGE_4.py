@@ -6,7 +6,13 @@ def main():
 	global a
 	global b
 	global c
-	# WRITE YOUR CODE HERE
+	if a > b and a > c:
+		max = a
+	elif b > a and b > c:
+		max = b
+	elif c > a and c > b:
+		max = c
+	print(max)
 	pass
 
 

@@ -8,7 +8,13 @@ def sort_a_b_c_d():
 	global b
 	global c
 	global d
-	# WRITE YOUR CODE HERE
+	arr = [a, b, c, d]
+	arr.sort(reverse = True)
+	a = arr[0]
+	b = arr[1]
+	c = arr[2]
+	d = arr[3]
+
 	pass
 
 def main():

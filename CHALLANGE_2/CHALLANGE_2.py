@@ -6,7 +6,11 @@ def shift_a_b_c():
 	global a
 	global b
 	global c
-	# WRITE YOUR CODE HERE
+	d = a
+	e = b
+	a = c
+	b = d
+	c = e
 	pass
 
 def main():

@@ -1,9 +1,16 @@
 a: int = 12
 b: int = 45
-oper: str = "+"
+oper: str = ""
 
 def calculate(left: int, right: int, operation: str):
-	# WRITE YOUR CODE HERE
+	if operation == "+":
+		return(left + right)
+	elif operation == "-":
+		return(left - right)
+	elif operation == "*":
+		return(left * right)
+	elif operation == "/":
+		return(left / right)
 	pass
 
 

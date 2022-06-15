@@ -4,7 +4,12 @@ b: int = 45
 def main():
 	global a
 	global b
-	# WRITE YOUR CODE HERE
+	if a > b:
+		print('A > B')
+	elif a < b:
+		print('A < B')
+	else:
+		print('A == B')
 	pass
 
 
